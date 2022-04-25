@@ -14,13 +14,13 @@ export default createGlobalStyle`
 
     body {
         background: #0D2636;
-        font-size: 14px;
+        font-size: 16px;
         -webkit-font-smoothing: antialiased !important;
     }
 
     body, input, button {
         color: #222;
-        font-size: 14px;
+        font-size: 16px;
         font-family: 'Poppins', sans-serif;
     }
 
