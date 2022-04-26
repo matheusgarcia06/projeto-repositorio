@@ -32,6 +32,39 @@ export const Form = styled.form`
 	}
 `;
 
+export const List = styled.ul`
+	list-style: none;
+	margin-top: 1.25rem;
+
+	li {
+		padding: 1rem 0;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+
+		& + li {
+			border-top: 1px solid #eee;
+		}
+
+		a {
+			color: #0d2636;
+			text-decoration: none;
+			padding-right: 0.8rem;
+			outline: 0;
+			border-radius: 4px;
+		}
+	}
+`;
+
+export const DeleteButton = styled.button.attrs({
+	type: 'button',
+})`
+	background: transparent;
+	color: #0d2636;
+	border: 0;
+	padding-right: 0.3rem;
+`;
+
 // Button Animation
 
 const animate = keyframes`
